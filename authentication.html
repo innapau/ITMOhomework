@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stance - Авторизация</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Основные понятия культуры занижения автомобилей (Stance)">
+    <meta name="keywords" content="Stance, dropmode, посадка, занижение, тюнинг">
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li><a href="index.html"><b>Главная</b></a></li>
+        <li><a href="gallery.html"><b>Галерея</b></a></li>
+        <li><a href="examples.html"><b>Примеры фитмента</b></a></li>
+        <li><a href="authentication.html"><b>Авторизация</b></a></li>
+        <li><a href="registration.html"><b>Регистрация</b></a></li>
+      </ul>
+    </div>
+    <form autocomplete="on">
+      <fieldset>
+        <legend align="center"><h2>Авторизация</h2></legend>
+          <p>
+            <input type="email"
+            required
+            autofocus
+            size="38"
+            placeholder="Введите E-mail">
+          </p>
+          <p>
+            <input type="password"
+            required
+            placeholder="Введите пароль"
+            size="38">
+          </p>
+          <p>
+            <input type="submit" value="Войти">
+            <!-- Как я понял, кнопку типа "button" нельзя сделать ссылкой на другую страницу с помощью одного лишь html, но пускай она будет -->
+            <input type="button" value="Зарегистрироваться">
+          </p>
+      </fieldset>
+    </form>
+  </body>
+</html>

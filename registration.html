@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stance - Регистрация</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Основные понятия культуры занижения автомобилей (Stance)">
+    <meta name="keywords" content="Stance, dropmode, посадка, занижение, тюнинг">
+  </head>
+  <body>
+    <div>
+      <ul type="none">
+        <li><a href="index.html"><b>Главная</b></a></li>
+        <li><a href="gallery.html"><b>Галерея</b></a></li>
+        <li><a href="examples.html"><b>Примеры фитмента</b></a></li>
+        <li><a href="authentication.html"><b>Авторизация</b></a></li>
+        <li><a href="registration.html"><b>Регистрация</b></a></li>
+      </ul>
+    </div>
+    <form>
+      <fieldset>
+        <legend align="center"><h2>Регистрация</h2></legend>
+          <p>
+            <input type="text"
+            required
+            autofocus
+            size="38"
+            maxlength="12"
+            minlength="3"
+            placeholder="Логин"
+            title="Логин должен содержать от 3 до 12 символов">
+          </p>
+          <p>
+            <input type="email"
+            required
+            size="38"
+            placeholder="E-mail">
+          </p>
+          </p>
+          <p>
+            <input type="password"
+            required
+            title="Минимальная длина пароля 6 символов"
+            placeholder="Пароль"
+            size="38"
+            minlength="6">
+          </p>
+          <p>
+            <input type="password"
+            required
+            title="Минимальная длина пароля 6 символов"
+            placeholder="Подтверждение пароля"
+            size="38"
+            minlength="6">
+          </p>
+          <p>
+            <label>Ваш аватар (не обязательно):</label>
+            <input type="file" accept="image/*">
+          </p>
+          <p>
+            <label>
+              Я согласен с условиями регистрации<input type="checkbox">
+            </label>
+          </p>
+          </p>
+          <p>
+            <input type="submit" value="Зарегистрироваться">
+          </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
