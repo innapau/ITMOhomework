@@ -1,69 +1,186 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stance - Регистрация</title>
+    <title>State of Stance - Регистрация</title>
     <meta charset="utf-8">
     <meta name="description" content="Основные понятия культуры занижения автомобилей (Stance)">
     <meta name="keywords" content="Stance, dropmode, посадка, занижение, тюнинг">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <div>
-      <ul type="none">
-        <li><a href="index.html"><b>Главная</b></a></li>
-        <li><a href="gallery.html"><b>Галерея</b></a></li>
-        <li><a href="examples.html"><b>Примеры фитмента</b></a></li>
-        <li><a href="authentication.html"><b>Авторизация</b></a></li>
-        <li><a href="registration.html"><b>Регистрация</b></a></li>
-      </ul>
+  <body class="page">
+    <header class="header-container">
+      <div class="header-container__logo">
+        <a href=index.html title="Homepage">
+        <img src="img/logo.png" class="header-container__logo_input"></a>
+      </div>
+      <nav class="header-container__menu">
+        <ul>
+          <li class="header-container__menu_item">
+            <a href="index.html" title="Главная" class="header-container__menu_link"><b>Главная</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="fitment.html" title="Примеры фитмента" class="header-container__menu_link"><b>Фитмент</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="articles.html" title="Статьи" class="header-container__menu_link"><b>Проекты</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="garage.html" title="Мой гараж" class="header-container__menu_link"><b>Мой гараж</b></a>
+            <div class="header-container__menu_item_dropdown">
+              <div class="submenu">
+                <ul class="submenu__container">
+                  <li class="submenu__item">
+                    <a href="garage.html" title="Мои машины" class="submenu__link"><b>Мои машины</b></a>
+                  </li>
+                  <li>
+                    <a href="userCar.html" title="Добавить машину" class="submenu__link"><b>Добавить машину</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="authentication.html" title="Авторизация" class="header-container__menu_link"><b>Личный кабинет</b></a>
+            <div class="header-container__menu_item_dropdown">
+              <div class="submenu">
+                <ul class="submenu__container">
+                  <li>
+                    <a href="authentication.html" title="Авторизация" class="submenu__link"><b>Авторизация</b></a>
+                  </li>
+                  <li>
+                    <a href="registration.html" title="Регистрация" class="submenu__link"><b>Регистрация</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="middle">
+      <section class="middle__main">
+        <h1 class="middle__main_title">Регистрация</h1>
+        <div class="middle__main_unit">
+          <form autocomplete="on">
+            <ul class="middle__main_unit_form_reg">
+              <li class="middle__main_unit_form_reg_unit">
+                <input type="text"
+                class="middle__main_unit_form_filler"
+                required
+                autofocus
+                maxlength="12"
+                minlength="3"
+                placeholder="Логин"
+                title="Логин должен содержать от 3 до 12 символов">
+              </li>
+              <li class="middle__main_unit_form_reg_unit">
+                <input type="email"
+                class="middle__main_unit_form_filler"
+                required
+                placeholder="E-mail">
+              </li>
+              <li class="middle__main_unit_form_reg_unit">
+                <input type="password"
+                class="middle__main_unit_form_filler"
+                required
+                title="Минимальная длина пароля 6 символов"
+                placeholder="Пароль"
+                minlength="6">
+              </li>
+              <li class="middle__main_unit_form_reg_unit">
+                <div class="middle__main_unit_form_photos">
+                  <label for="photo">Ваш аватар (не обязательно):</label>
+                  <button class="middle__main_unit_form_upload">Загрузить фото</button>
+                  <input id="photo" type="file" accept="image/*" name="myfile" />
+                </div>
+              </li>
+              <li class="middle__main_unit_form_reg_unit">
+                <label>
+                  Я согласен с условиями регистрации<input class="checkbox" type="checkbox">
+                </label>
+              </li>
+              <li class="middle__main_unit_form_reg_unit">
+                <input class="middle__main_unit_form_button" type="submit" value="Зарегистрироваться">
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
+      <aside class="middle__aside">
+        <h2 class="middle__aside_title">Отчеты с мероприятий</h2>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/04/03/status-seasonal-2020-photo-coverage/" title="Status Seasonal 2020" target="_blank">
+            <img src="./img/event-coverage/Status-Seasonal-2020.jpg" alt="Status Seasonal 2020" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Status Seasonal 2020</span>
+              <br>
+              <span class="middle__aside_image-date">April 3, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/03/04/nagoya-auto-trend-2020-photo-coverage/" title="Nagoya Auto Trend 2020" target="_blank">
+            <img src="./img/event-coverage/Nagoya-Auto-Trend-2020.jpg" alt="Nagoya Auto Trend 2020" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Nagoya Auto Trend 2020</span>
+              <br>
+              <span class="middle__aside_image-date">March 4, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/16/osaka-auto-messe-2020-photo-coverage-part-1/" title="OSAKA AUTO MESSE 2020 pt.1" target="_blank">
+            <img src="./img/event-coverage/Osaka-Auto-Messe-2020-1.jpg" alt="OSAKA AUTO MESSE 2020 pt.1" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Osaka Auto Messe 2020 pt.1</span>
+              <br>
+              <span class="middle__aside_image-date">February 16, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/18/osaka-auto-messe-2020-photo-coverage-part-2/" title="OSAKA AUTO MESSE 2020 pt.2" target="_blank">
+            <img src="./img/event-coverage/Osaka-Auto-Messe-2020-2.jpg" alt="OSAKA AUTO MESSE 2020 pt.2" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Osaka Auto Messe 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">February 16, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/01/14/tokyo-auto-salon-2020-photo-coverage-part-1/" title="Tokyo Auto Salon 2020 pt.1" target="_blank">
+            <img src="./img/event-coverage/Tokyo-auto-Salon-2020-1.jpg" alt="Tokyo Auto Salon 2020 pt.1" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Tokyo Auto Salon 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">January 14, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/18/osaka-auto-messe-2020-photo-coverage-part-2/" title="Tokyo Auto Salon 2020 pt.2" target="_blank">
+            <img src="./img/event-coverage/Tokyo-auto-Salon-2020-2.jpg" alt="Tokyo Auto Salon 2020 pt.2" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Tokyo Auto Salon 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">January 14, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/topics/event-coverage/" class="middle__aside_unit_button" title="Stancenation: Event Coverage" target="_blank"><strong>Смотреть больше отчетов</strong></a>
+        </div>
+      </aside>
     </div>
-    <form>
-      <fieldset>
-        <legend align="center"><h2>Регистрация</h2></legend>
-          <p>
-            <input type="text"
-            required
-            autofocus
-            size="38"
-            maxlength="12"
-            minlength="3"
-            placeholder="Логин"
-            title="Логин должен содержать от 3 до 12 символов">
-          </p>
-          <p>
-            <input type="email"
-            required
-            size="38"
-            placeholder="E-mail">
-          </p>
-          <p>
-            <input type="password"
-            required
-            title="Минимальная длина пароля 6 символов"
-            placeholder="Пароль"
-            size="38"
-            minlength="6">
-          </p>
-          <p>
-            <input type="password"
-            required
-            title="Минимальная длина пароля 6 символов"
-            placeholder="Подтверждение пароля"
-            size="38"
-            minlength="6">
-          </p>
-          <p>
-            <label>Ваш аватар (не обязательно):</label>
-            <input type="file" accept="image/*">
-          </p>
-          <p>
-            <label>
-              Я согласен с условиями регистрации<input type="checkbox">
-            </label>
-          </p>
-          <p>
-            <input type="submit" value="Зарегистрироваться">
-          </p>
-      </fieldset>
-    </form>
+    <footer class="footer">
+      <div class="footer-container">
+        <img src="img/logo.png" width="72" class="footer-container__image">
+        <p class="footer-container__text">Created with love and respect to the culture</p>
+        <p class="footer-container__text">
+          <a href="https://github.com/innapau" class="footer-container__text_link">by Denis Maslakovich</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

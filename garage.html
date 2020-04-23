@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>State of Stance - Авторизация</title>
+    <title>State of Stance - Мой гараж</title>
     <meta charset="utf-8">
     <meta name="description" content="Основные понятия культуры занижения автомобилей (Stance)">
     <meta name="keywords" content="Stance, dropmode, посадка, занижение, тюнинг">
@@ -59,29 +59,9 @@
     </header>
     <div class="middle">
       <section class="middle__main">
-        <h1 class="middle__main_title">Авторизация</h1>
+        <h1 class="middle__main_title">Гараж пользователя</h1>
         <div class="middle__main_unit">
-          <form autocomplete="on">
-            <ul class="middle__main_unit_form_reg">
-              <li class="middle__main_unit_form_reg_unit">
-                <input type="email"
-                class="middle__main_unit_form_filler"
-                required
-                autofocus
-                placeholder="Введите E-mail">
-              </li>
-              <li class="middle__main_unit_form_reg_unit">
-                <input type="password"
-                class="middle__main_unit_form_filler"
-                required
-                placeholder="Введите пароль">
-              </li>
-              <li class="middle__main_unit_form_reg_unit">
-                <input class="middle__main_unit_form_button" type="submit" value="Войти">
-                <button class="middle__main_unit_form_button" onclick="document.location='registration.html'" style="margin-left: 1em;">Зарегистрироваться</button>
-              </li>
-            </ul>
-          </form>
+          <p class="middle__main_unit_text" style="text-align: center;">У Вас в гараже еще нет ни одного автомобиля. <a href="./userCar.html" title="Добавить машину" class="middle__main_unit_link"> Перейдите по ссылке</a>, чтобы добавить машину.</p>
         </div>
       </section>
       <aside class="middle__aside">
@@ -162,3 +142,46 @@
     </footer>
   </body>
 </html>
+
+
+
+
+
+
+
+
+<!--
+
+  <div class="fieldset">
+    <h1>Мой гараж</h1>
+      <p>Чтобы посмотреть Ваши автомобили, Вам необходимо <a href="#modal" class="hyperlink">Авторизоваться</a></p>
+  </div>
+  <div id="modal" class="modal">
+    <form>
+      <fieldset>
+        <a href="#" class="close">X</a>
+        <legend align="center"><h1>Авторизация</h1></legend>
+          <div>
+            <input type="email"
+            class="fillingForms"
+            required
+            autofocus
+            size="38"
+            placeholder="Введите E-mail">
+          </div>
+          <div>
+            <input type="password"
+            class="fillingForms"
+            required
+            placeholder="Введите пароль"
+            size="38">
+          </div>
+          <div>
+            <input class="buttons" type="submit" value="Войти">
+          </div>
+      </fieldset>
+    </form>
+  </div>
+</body>
+
+!-->

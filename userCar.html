@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>State of Stance - Добавить машину</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Основные понятия культуры занижения автомобилей (Stance)">
+    <meta name="keywords" content="Stance, dropmode, посадка, занижение, тюнинг">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body class="page">
+    <header class="header-container">
+      <div class="header-container__logo">
+        <a href=index.html title="Homepage">
+        <img src="img/logo.png" class="header-container__logo_input"></a>
+      </div>
+      <nav class="header-container__menu">
+        <ul>
+          <li class="header-container__menu_item">
+            <a href="index.html" title="Главная" class="header-container__menu_link"><b>Главная</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="fitment.html" title="Примеры фитмента" class="header-container__menu_link"><b>Фитмент</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="articles.html" title="Статьи" class="header-container__menu_link"><b>Проекты</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="garage.html" title="Мой гараж" class="header-container__menu_link"><b>Мой гараж</b></a>
+            <div class="header-container__menu_item_dropdown">
+              <div class="submenu">
+                <ul class="submenu__container">
+                  <li class="submenu__item">
+                    <a href="garage.html" title="Мои машины" class="submenu__link"><b>Мои машины</b></a>
+                  </li>
+                  <li>
+                    <a href="userCar.html" title="Добавить машину" class="submenu__link"><b>Добавить машину</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="authentication.html" title="Авторизация" class="header-container__menu_link"><b>Личный кабинет</b></a>
+            <div class="header-container__menu_item_dropdown">
+              <div class="submenu">
+                <ul class="submenu__container">
+                  <li>
+                    <a href="authentication.html" title="Авторизация" class="submenu__link"><b>Авторизация</b></a>
+                  </li>
+                  <li>
+                    <a href="registration.html" title="Регистрация" class="submenu__link"><b>Регистрация</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="middle">
+      <section class="middle__main">
+        <h1 class="middle__main_title">Добавить автомобиль в гараж</h1>
+        <div class="middle__main_unit">
+          <form autocomplete="on">
+            <ul class="middle__main_unit_form_outer">
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="auto-brand"><strong>Марка: </strong></label>
+                <select class="middle__main_unit_form_list" id="auto-brand">
+                  <option selected="selected"></option>
+                  <option>AC Cobra</option>
+                  <option>Acura</option>
+                  <option>Alfa Romeo</option>
+                  <option>Alpina</option>
+                  <option>AMC</option>
+                  <option>ARO</option>
+                  <option>Asia</option>
+                  <option>Aston Martin</option>
+                  <option>Audi</option>
+                  <option>Austin</option>
+                  <option>Autozam</option>
+                  <option>Avia</option>
+                  <option>BAC</option>
+                  <option>Barkas</option>
+                  <option>Bentley</option>
+                  <option>Bertone</option>
+                  <option>Bilenkin Classic Cars</option>
+                  <option>BMW</option>
+                  <option>Bogdan</option>
+                  <option>Brilliance</option>
+                  <option>Bugatti</option>
+                  <option>Buick</option>
+                  <option>BYD</option>
+                  <option>Cadillac</option>
+                  <option>Caterham</option>
+                  <option>Changan</option>
+                  <option>Chery</option>
+                  <option>Chevrolet</option>
+                  <option>Chrysler</option>
+                  <option>Citroen</option>
+                  <option>Cord</option>
+                  <option>Dacia</option>
+                  <option>Dadi</option>
+                  <option>Daewoo</option>
+                  <option>Daihatsu</option>
+                  <option>Daimler</option>
+                  <option>Datsun</option>
+                  <option>de Tomaso</option>
+                  <option>DeLorean</option>
+                  <option>Derways</option>
+                  <option>Dodge</option>
+                  <option>Dongfeng</option>
+                  <option>Eagle</option>
+                  <option>Efini</option>
+                  <option>Eunos</option>
+                  <option>FAW</option>
+                  <option>Ferrari</option>
+                  <option>FIAT</option>
+                  <option>Ford</option>
+                  <option>Foton</option>
+                  <option>FSO</option>
+                  <option>GAC</option>
+                  <option>Geely</option>
+                  <option>Genesis</option>
+                  <option>GMC</option>
+                  <option>Great Wall</option>
+                  <option>Hafei</option>
+                  <option>Haima</option>
+                  <option>Haval</option>
+                  <option>Hawtai</option>
+                  <option>Holden</option>
+                  <option>Honda</option>
+                  <option>Huanghai</option>
+                  <option>Hummer</option>
+                  <option>Hyundai</option>
+                  <option>Infiniti</option>
+                  <option>Iran Khodro</option>
+                  <option>Isuzu</option>
+                  <option>Iveco</option>
+                  <option>JAC</option>
+                  <option>Jaguar</option>
+                  <option>Jeep</option>
+                  <option>KIA</option>
+                  <option>KTM</option>
+                  <option>Lamborghini</option>
+                  <option>Lancia</option>
+                  <option>Land Rover</option>
+                  <option>LDV</option>
+                  <option>Lexus</option>
+                  <option>Lifan</option>
+                  <option>Ligier</option>
+                  <option>Lincoln</option>
+                  <option>Lotus</option>
+                  <option>Luxgen</option>
+                  <option>Marussia</option>
+                  <option>Maserati</option>
+                  <option>Maybach</option>
+                  <option>Mazda</option>
+                  <option>Mercedes</option>
+                  <option>Mercury</option>
+                  <option>Merkur</option>
+                  <option>MG</option>
+                  <option>MINI</option>
+                  <option>Mitsubishi</option>
+                  <option>Morgan</option>
+                  <option>Morris</option>
+                  <option>Nissan</option>
+                  <option>Noble</option>
+                  <option>Nysa</option>
+                  <option>Oldsmobile</option>
+                  <option>Opel</option>
+                  <option>Peugeot</option>
+                  <option>Plymouth</option>
+                  <option>Pontiac</option>
+                  <option>Porsche</option>
+                  <option>Proton</option>
+                  <option>Ravon</option>
+                  <option>Renault</option>
+                  <option>Rolls-Royce</option>
+                  <option>Rover</option>
+                  <option>Saab</option>
+                  <option>Samsung</option>
+                  <option>Saturn</option>
+                  <option>Scion</option>
+                  <option>SEAT</option>
+                  <option>Simca</option>
+                  <option>Skoda</option>
+                  <option>SMA</option>
+                  <option>Smart</option>
+                  <option>SsangYong</option>
+                  <option>Subaru</option>
+                  <option>Suzuki</option>
+                  <option>Talbot</option>
+                  <option>Tata</option>
+                  <option>Tatra</option>
+                  <option>Tesla</option>
+                  <option>Toyota</option>
+                  <option>Trabant</option>
+                  <option>Vauxhall</option>
+                  <option>Volkswagen</option>
+                  <option>Volvo</option>
+                  <option>Wartburg</option>
+                  <option>Wiesmann</option>
+                  <option>Willys</option>
+                  <option>Zotye</option>
+                  <option>ZX</option>
+                  <option>Автокам</option>
+                  <option>ВАЗ</option>
+                  <option>ВИС</option>
+                  <option>ГАЗ</option>
+                  <option>ЕрАЗ</option>
+                  <option>ЗАЗ</option>
+                  <option>ЗИЛ</option>
+                  <option>ИЖ</option>
+                  <option>КАМАЗ</option>
+                  <option>Лада</option>
+                  <option>ЛуАЗ</option>
+                  <option>Москвич</option>
+                  <option>РАФ</option>
+                  <option>СеАЗ</option>
+                  <option>ТагАЗ</option>
+                  <option>УАЗ</option>
+                  <option>Другие</option>
+                  <option>Самоделки</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="auto-model"><strong>Модель: </strong></label>
+                <input id="auto-model" type="text" class="middle__main_unit_form_filler" required minlength="1" placeholder="Укажите модель">
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="auto-color"><strong>Цвет: </strong></label>
+                <select class="middle__main_unit_form_list" id="auto-color">
+                  <option selected="selected"></option>
+                  <option>Бежевый</option>
+                  <option>Белый</option>
+                  <option>Голубой</option>
+                  <option>Жёлтый</option>
+                  <option>Зелёный</option>
+                  <option>Золотистый</option>
+                  <option>Коричневый</option>
+                  <option>Красный</option>
+                  <option>Оранжевый</option>
+                  <option>Розовый</option>
+                  <option>Серебристый</option>
+                  <option>Серый</option>
+                  <option>Синий</option>
+                  <option>Фиолетовый</option>
+                  <option>Чёрный</option>
+                  <option>Комбинированный</option>
+                </select>
+                <label>
+                  или укажите свой: <input type="color" class="middle__main_unit_form_color">
+                </label>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="manufacture"><strong>Год выпуска: </strong></label>
+                <select class="middle__main_unit_form_list" id="manufacture">
+                  <option selected="selected"></option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+                  <option value="1996">1996</option>
+                  <option value="1995">1995</option>
+                  <option value="1994">1994</option>
+                  <option value="1993">1993</option>
+                  <option value="1992">1992</option>
+                  <option value="1991">1991</option>
+                  <option value="1990">1990</option>
+                  <option value="1989">1989</option>
+                  <option value="1988">1988</option>
+                  <option value="1987">1987</option>
+                  <option value="1986">1986</option>
+                  <option value="1985">1985</option>
+                  <option value="1984">1984</option>
+                  <option value="1983">1983</option>
+                  <option value="1982">1982</option>
+                  <option value="1981">1981</option>
+                  <option value="1980">1980</option>
+                  <option value="1979">1979</option>
+                  <option value="1978">1978</option>
+                  <option value="1977">1977</option>
+                  <option value="1976">1976</option>
+                  <option value="1975">1975</option>
+                  <option value="1974">1974</option>
+                  <option value="1973">1973</option>
+                  <option value="1972">1972</option>
+                  <option value="1971">1971</option>
+                  <option value="1970">1970</option>
+                  <option value="1969">1969</option>
+                  <option value="1968">1968</option>
+                  <option value="1967">1967</option>
+                  <option value="1966">1966</option>
+                  <option value="1965">1965</option>
+                  <option value="1964">1964</option>
+                  <option value="1963">1963</option>
+                  <option value="1962">1962</option>
+                  <option value="1961">1961</option>
+                  <option value="1960">1960</option>
+                  <option value="1959">1959</option>
+                  <option value="1958">1958</option>
+                  <option value="1957">1957</option>
+                  <option value="1956">1956</option>
+                  <option value="1955">1955</option>
+                  <option value="1954">1954</option>
+                  <option value="1953">1953</option>
+                  <option value="1952">1952</option>
+                  <option value="1951">1951</option>
+                  <option value="1950">1950</option>
+                  <option value="1949">1949</option>
+                  <option value="1948">1948</option>
+                  <option value="1947">1947</option>
+                  <option value="1946">1946</option>
+                  <option value="1945">1945</option>
+                  <option value="1944">1944</option>
+                  <option value="1943">1943</option>
+                  <option value="1942">1942</option>
+                  <option value="1941">1941</option>
+                  <option value="1940">1940</option>
+                  <option value="1939">1939</option>
+                  <option value="1938">1938</option>
+                  <option value="1937">1937</option>
+                  <option value="1936">1936</option>
+                  <option value="1935">1935</option>
+                  <option value="1934">1934</option>
+                  <option value="1933">1933</option>
+                  <option value="1932">1932</option>
+                  <option value="1931">1931</option>
+                  <option value="1930">1930</option>
+                  <option value="1929">1929</option>
+                  <option value="1928">1928</option>
+                  <option value="1927">1927</option>
+                  <option value="1926">1926</option>
+                  <option value="1925">1925</option>
+                  <option value="1924">1924</option>
+                  <option value="1923">1923</option>
+                  <option value="1922">1922</option>
+                  <option value="1921">1921</option>
+                  <option value="1920">1920</option>
+                  <option value="1919">1919</option>
+                  <option value="1918">1918</option>
+                  <option value="1917">1917</option>
+                  <option value="1916">1916</option>
+                  <option value="1915">1915</option>
+                  <option value="1914">1914</option>
+                  <option value="1913">1913</option>
+                  <option value="1912">1912</option>
+                  <option value="1911">1911</option>
+                  <option value="1910">1910</option>
+                  <option value="1909">1909</option>
+                  <option value="1908">1908</option>
+                  <option value="1907">1907</option>
+                  <option value="1906">1906</option>
+                  <option value="1905">1905</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="acquisition"><strong>Год покупки: </strong></label>
+                <select class="middle__main_unit_form_list" id="acquisition">
+                  <option selected="selected"></option>
+                  <option value="2020">2020</option>
+                  <option value="2019">2019</option>
+                  <option value="2018">2018</option>
+                  <option value="2017">2017</option>
+                  <option value="2016">2016</option>
+                  <option value="2015">2015</option>
+                  <option value="2014">2014</option>
+                  <option value="2013">2013</option>
+                  <option value="2012">2012</option>
+                  <option value="2011">2011</option>
+                  <option value="2010">2010</option>
+                  <option value="2009">2009</option>
+                  <option value="2008">2008</option>
+                  <option value="2007">2007</option>
+                  <option value="2006">2006</option>
+                  <option value="2005">2005</option>
+                  <option value="2004">2004</option>
+                  <option value="2003">2003</option>
+                  <option value="2002">2002</option>
+                  <option value="2001">2001</option>
+                  <option value="2000">2000</option>
+                  <option value="1999">1999</option>
+                  <option value="1998">1998</option>
+                  <option value="1997">1997</option>
+                  <option value="1996">1996</option>
+                  <option value="1995">1995</option>
+                  <option value="1994">1994</option>
+                  <option value="1993">1993</option>
+                  <option value="1992">1992</option>
+                  <option value="1991">1991</option>
+                  <option value="1990">1990</option>
+                  <option value="1989">1989</option>
+                  <option value="1988">1988</option>
+                  <option value="1987">1987</option>
+                  <option value="1986">1986</option>
+                  <option value="1985">1985</option>
+                  <option value="1984">1984</option>
+                  <option value="1983">1983</option>
+                  <option value="1982">1982</option>
+                  <option value="1981">1981</option>
+                  <option value="1980">1980</option>
+                  <option value="1979">1979</option>
+                  <option value="1978">1978</option>
+                  <option value="1977">1977</option>
+                  <option value="1976">1976</option>
+                  <option value="1975">1975</option>
+                  <option value="1974">1974</option>
+                  <option value="1973">1973</option>
+                  <option value="1972">1972</option>
+                  <option value="1971">1971</option>
+                  <option value="1970">1970</option>
+                  <option value="1969">1969</option>
+                  <option value="1968">1968</option>
+                  <option value="1967">1967</option>
+                  <option value="1966">1966</option>
+                  <option value="1965">1965</option>
+                  <option value="1964">1964</option>
+                  <option value="1963">1963</option>
+                  <option value="1962">1962</option>
+                  <option value="1961">1961</option>
+                  <option value="1960">1960</option>
+                  <option value="1959">1959</option>
+                  <option value="1958">1958</option>
+                  <option value="1957">1957</option>
+                  <option value="1956">1956</option>
+                  <option value="1955">1955</option>
+                  <option value="1954">1954</option>
+                  <option value="1953">1953</option>
+                  <option value="1952">1952</option>
+                  <option value="1951">1951</option>
+                  <option value="1950">1950</option>
+                  <option value="1949">1949</option>
+                  <option value="1948">1948</option>
+                  <option value="1947">1947</option>
+                  <option value="1946">1946</option>
+                  <option value="1945">1945</option>
+                  <option value="1944">1944</option>
+                  <option value="1943">1943</option>
+                  <option value="1942">1942</option>
+                  <option value="1941">1941</option>
+                  <option value="1940">1940</option>
+                  <option value="1939">1939</option>
+                  <option value="1938">1938</option>
+                  <option value="1937">1937</option>
+                  <option value="1936">1936</option>
+                  <option value="1935">1935</option>
+                  <option value="1934">1934</option>
+                  <option value="1933">1933</option>
+                  <option value="1932">1932</option>
+                  <option value="1931">1931</option>
+                  <option value="1930">1930</option>
+                  <option value="1929">1929</option>
+                  <option value="1928">1928</option>
+                  <option value="1927">1927</option>
+                  <option value="1926">1926</option>
+                  <option value="1925">1925</option>
+                  <option value="1924">1924</option>
+                  <option value="1923">1923</option>
+                  <option value="1922">1922</option>
+                  <option value="1921">1921</option>
+                  <option value="1920">1920</option>
+                  <option value="1919">1919</option>
+                  <option value="1918">1918</option>
+                  <option value="1917">1917</option>
+                  <option value="1916">1916</option>
+                  <option value="1915">1915</option>
+                  <option value="1914">1914</option>
+                  <option value="1913">1913</option>
+                  <option value="1912">1912</option>
+                  <option value="1911">1911</option>
+                  <option value="1910">1910</option>
+                  <option value="1909">1909</option>
+                  <option value="1908">1908</option>
+                  <option value="1907">1907</option>
+                  <option value="1906">1906</option>
+                  <option value="1905">1905</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="engine"><strong>Тип двигателя: </strong></label>
+                <select class="middle__main_unit_form_list" id="engine">
+                  <option selected="selected"></option>
+                  <option>Бензиновый</option>
+                  <option>Дизельный</option>
+                  <option>Гибридный</option>
+                  <option>Гибридный</option>
+                  <option>Электрический</option>
+                  <option>Водородный</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="capacity"><strong>Рабочий объем: </strong></label>
+                <select class="middle__main_unit_form_list" id="capacity">
+                  <option selected="selected"></option>
+                  <option>0,5</option>
+                  <option>0,6</option>
+                  <option>0,7</option>
+                  <option>0,8</option>
+                  <option>0,9</option>
+                  <option>1,0</option>
+                  <option>1,1</option>
+                  <option>1,2</option>
+                  <option>1,3</option>
+                  <option>1,4</option>
+                  <option>1,5</option>
+                  <option>1,6</option>
+                  <option>1,7</option>
+                  <option>1,8</option>
+                  <option>1,9</option>
+                  <option>2,0</option>
+                  <option>2,1</option>
+                  <option>2,2</option>
+                  <option>2,3</option>
+                  <option>2,4</option>
+                  <option>2,5</option>
+                  <option>2,6</option>
+                  <option>2,7</option>
+                  <option>2,8</option>
+                  <option>2,9</option>
+                  <option>3,0</option>
+                  <option>3,1</option>
+                  <option>3,2</option>
+                  <option>3,3</option>
+                  <option>3,4</option>
+                  <option >3,5</option>
+                  <option>3,6</option>
+                  <option>3,7</option>
+                  <option>3,8</option>
+                  <option>3,9</option>
+                  <option>4,0</option>
+                  <option>4,1</option>
+                  <option>4,2</option>
+                  <option>4,3</option>
+                  <option>4,4</option>
+                  <option>4,5</option>
+                  <option>4,6</option>
+                  <option>4,7</option>
+                  <option>4,8</option>
+                  <option>4,9</option>
+                  <option>5,0</option>
+                  <option>5,1</option>
+                  <option>5,2</option>
+                  <option>5,3</option>
+                  <option>5,4</option>
+                  <option>5,5</option>
+                  <option>5,6</option>
+                  <option>5,7</option>
+                  <option>5,8</option>
+                  <option>5,9</option>
+                  <option>6,0</option>
+                  <option>6,1</option>
+                  <option>6,2</option>
+                  <option>6,3</option>
+                  <option>6,4</option>
+                  <option>6,5</option>
+                  <option>6,6</option>
+                  <option>6,7</option>
+                  <option>6,8</option>
+                  <option>6,9</option>
+                  <option>7,0</option>
+                  <option>7,1</option>
+                  <option>7,2</option>
+                  <option>7,3</option>
+                  <option>7,4</option>
+                  <option>7,5</option>
+                  <option>7,6</option>
+                  <option>7,7</option>
+                  <option>7,8</option>
+                  <option>7,9</option>
+                  <option>8,0</option>
+                  <option>8,1</option>
+                  <option>8,2</option>
+                  <option>8,3</option>
+                  <option>8,4</option>
+                  <option>8,5</option>
+                  <option>8,6</option>
+                  <option>8,7</option>
+                  <option>8,8</option>
+                  <option>8,9</option>
+                  <option>9,0</option>
+                  <option>9,1</option>
+                  <option>9,2</option>
+                  <option>9,3</option>
+                  <option>9,4</option>
+                  <option>9,5</option>
+                  <option>9,6</option>
+                  <option>9,7</option>
+                  <option>9,8</option>
+                  <option>9,9</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="transmission"><strong>Тип трансмиссии: </strong></label>
+                <select class="middle__main_unit_form_list" id="transmission">
+                  <option selected="selected"></option>
+                  <option>Механическая</option>
+                  <option>Автоматическая</option>
+                  <option>Роботизированная</option>
+                  <option>Вариатор</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="power"><strong>Мощность двигателя: </strong></label>
+                <input id="power" type="text" required maxlength="5" class="middle__main_unit_form_filler"><span>&nbsp;л.с.</span>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="wheelDrive"><strong>Привод: </strong></label>
+                <select class="middle__main_unit_form_list" id="whellDrive">
+                  <option selected="selected" value="0"></option>
+                  <option value="1">Передний</option>
+                  <option value="2">Задний</option>
+                  <option value="3">Полный</option>
+                </select>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <p><strong>А что это за машина?</strong></p>
+                <ul class="middle__main_unit_form_inner">
+                  <li>
+                    <label><input class="middle__main_unit_form_radio" name="answer" type="radio">Я на ней езжу сейчас</label>
+                  </li>
+                  <li>
+                    <label><input class="middle__main_unit_form_radio" name="answer" type="radio">Это моя бывшая</label>
+                  </li>
+                </ul>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <div class="middle__main_unit_form_photos">
+                  <label for="photo"><strong>Фотографии Вашей машины: </strong></label>
+                  <button class="middle__main_unit_form_upload">Загрузить фото</button>
+                  <input id="photo" type="file" multiple accept="image/*" class="middle__main_unit_form_photos">
+                </div>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="description"><strong>Расскажите об автомобиле: </strong></label>
+                <textarea id="description" class="middle__main_unit_form_textarea" rows="10" cols="45" minlength="140" title="Минимум 140 символов." placeholder="Расскажите нам и остальным пользователям о своем автомобиле, Ваш рассказ является главным критерием интересности машины"></textarea>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <label for="licensePlateNumber"><strong>Госномер: </strong></label>
+                <input class="middle__main_unit_form_filler" id="licensePlateNumber" type="text" maxlength="15" placeholder="Например A555AA177">
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <ul class="middle__main_unit_form_checkbox">
+                  <li>
+                    <label for="confirmation">Сделать мой госномер видимым для всех</label>
+                    <input id="confirmation" type="checkbox">
+                  </li>
+                </ul>
+              </li>
+              <li class="middle__main_unit_form_outer_unit">
+                <input class="middle__main_unit_form_button" type="submit" value="Готово">
+              </li>
+            </ul>
+          </form>
+        </div>
+      </section>
+      <aside class="middle__aside">
+        <h2 class="middle__aside_title">Отчеты с мероприятий</h2>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/04/03/status-seasonal-2020-photo-coverage/" title="Status Seasonal 2020" target="_blank">
+            <img src="./img/event-coverage/Status-Seasonal-2020.jpg" alt="Status Seasonal 2020" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Status Seasonal 2020</span>
+              <br>
+              <span class="middle__aside_image-date">April 3, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/03/04/nagoya-auto-trend-2020-photo-coverage/" title="Nagoya Auto Trend 2020" target="_blank">
+            <img src="./img/event-coverage/Nagoya-Auto-Trend-2020.jpg" alt="Nagoya Auto Trend 2020" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Nagoya Auto Trend 2020</span>
+              <br>
+              <span class="middle__aside_image-date">March 4, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/16/osaka-auto-messe-2020-photo-coverage-part-1/" title="OSAKA AUTO MESSE 2020 pt.1" target="_blank">
+            <img src="./img/event-coverage/Osaka-Auto-Messe-2020-1.jpg" alt="OSAKA AUTO MESSE 2020 pt.1" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Osaka Auto Messe 2020 pt.1</span>
+              <br>
+              <span class="middle__aside_image-date">February 16, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/18/osaka-auto-messe-2020-photo-coverage-part-2/" title="OSAKA AUTO MESSE 2020 pt.2" target="_blank">
+            <img src="./img/event-coverage/Osaka-Auto-Messe-2020-2.jpg" alt="OSAKA AUTO MESSE 2020 pt.2" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Osaka Auto Messe 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">February 16, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/01/14/tokyo-auto-salon-2020-photo-coverage-part-1/" title="Tokyo Auto Salon 2020 pt.1" target="_blank">
+            <img src="./img/event-coverage/Tokyo-auto-Salon-2020-1.jpg" alt="Tokyo Auto Salon 2020 pt.1" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Tokyo Auto Salon 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">January 14, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/18/osaka-auto-messe-2020-photo-coverage-part-2/" title="Tokyo Auto Salon 2020 pt.2" target="_blank">
+            <img src="./img/event-coverage/Tokyo-auto-Salon-2020-2.jpg" alt="Tokyo Auto Salon 2020 pt.2" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Tokyo Auto Salon 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">January 14, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/topics/event-coverage/" class="middle__aside_unit_button" title="Stancenation: Event Coverage" target="_blank"><strong>Смотреть больше отчетов</strong></a>
+        </div>
+      </aside>
+    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <img src="img/logo.png" width="72" class="footer-container__image">
+        <p class="footer-container__text">Created with love and respect to the culture</p>
+        <p class="footer-container__text">
+          <a href="https://github.com/innapau" class="footer-container__text_link">by Denis Maslakovich</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

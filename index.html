@@ -1,36 +1,184 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Stance - Основные понятия</title>
+    <title>State of Stance - Главная</title>
     <meta charset="utf-8">
     <meta name="description" content="Основные понятия культуры занижения автомобилей (Stance)">
     <meta name="keywords" content="Stance, dropmode, посадка, занижение, тюнинг">
+    <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <div>
-      <ul type="none">
-        <li><a href="index.html"><b>Главная</b></a></li>
-        <li><a href="gallery.html"><b>Галерея</b></a></li>
-        <li><a href="examples.html"><b>Примеры фитмента</b></a></li>
-        <li><a href="authentication.html"><b>Авторизация</b></a></li>
-        <li><a href="registration.html"><b>Регистрация</b></a></li>
-      </ul>
+  <body class="page">
+    <header class="header-container">
+      <div class="header-container__logo">
+        <a href=index.html title="Homepage">
+        <img src="img/logo.png" class="header-container__logo_input"></a>
+      </div>
+      <nav class="header-container__menu">
+        <ul>
+          <li class="header-container__menu_item">
+            <a href="index.html" title="Главная" class="header-container__menu_link"><b>Главная</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="fitment.html" title="Примеры фитмента" class="header-container__menu_link"><b>Фитмент</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="articles.html" title="Статьи" class="header-container__menu_link"><b>Проекты</b></a>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="garage.html" title="Мой гараж" class="header-container__menu_link"><b>Мой гараж</b></a>
+            <div class="header-container__menu_item_dropdown">
+              <div class="submenu">
+                <ul class="submenu__container">
+                  <li class="submenu__item">
+                    <a href="garage.html" title="Мои машины" class="submenu__link"><b>Мои машины</b></a>
+                  </li>
+                  <li>
+                    <a href="userCar.html" title="Добавить машину" class="submenu__link"><b>Добавить машину</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="header-container__menu_item">
+            <a href="authentication.html" title="Авторизация" class="header-container__menu_link"><b>Личный кабинет</b></a>
+            <div class="header-container__menu_item_dropdown">
+              <div class="submenu">
+                <ul class="submenu__container">
+                  <li>
+                    <a href="authentication.html" title="Авторизация" class="submenu__link"><b>Авторизация</b></a>
+                  </li>
+                  <li>
+                    <a href="registration.html" title="Регистрация" class="submenu__link"><b>Регистрация</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="middle">
+      <section class="middle__main">
+        <h1 class="middle__main_title">что такое Stance</h1>
+        <div class="middle__main_unit">
+          <a href="#Golf-Drawing">
+            <img src="img/Golf-Drawing.jpg" alt="Stanced Golf Drawing" class="middle__main_unit_image">
+          </a>
+          <a href="#_" class="middle__main_unit_image_lightbox" id="Golf-Drawing">
+            <img src="img/Golf-Drawing.jpg">
+          </a>
+              <p class="middle__main_unit_text">Основа стенса — экстремальные параметры клиренса, сочетаемые с незаурядным углом установки колес.&nbsp;&nbsp; Все — ради внимания, причем порой с крайне противоречивым окрасом: от глубокого восхищения до полного неприятия идеи. Стенс не оставляет равнодушным никого, привлекая внимание окружающих. Бабушки удивляются, ГИБДД потирает руки. Стенсеры жертвуют многим, чтобы созерцать приятный их глазу результат тюнинга. Чем руководствуются приверженцы стенса, что хотят показать и что доказать, с какими проблемами сталкиваются и чем жертвуют? Об этом Вы узнаете на нешем портале.</p>
+            <a href="#main-1">
+              <img src="img/main-1.jpg" alt="Extreme Stance" class="middle__main_unit_image">
+            </a>
+            <a href="#_" class="middle__main_unit_image_lightbox" id="main-1">
+              <img src="img/main-1.jpg" alt="Extreme Stance">
+            </a>
+            <span class="middle__main_unit_note">На верхнем фото — экстремальный пример Low Stance (Chevrolet C10). Внизу — Gay Stance (Chevrolet El Camino), Reverse Rake (Honda Beat, стилизованная под Chevrolet Impala) и Straight Rake (Dodge A108)</span>
+              <p class="middle__main_unit_text">Другой важный атрибут стенса — положение колес в арках, или fitment — термин, обозначающий расстояние от верхней кромки колесных дисков до нижней кромки крыльев. В настоящем стенсе одно без другого не существует.</p>
+              <p class="middle__main_unit_text">Чисто технически stance-тюнинг можно разделить на две ветви. У автомобилей с регулируемым дорожным просветом используется пневматическая или гидравлическая подвеска. Но настоящий «хардкор» — тачки с нерегулируемым клиренсом. И это не просто укороченные пружины или «винты»…</p>
+            <h2 class="middle__main_unit_title">Где и когда зародилось? Как распространялось по миру?</h2>
+              <p class="middle__main_unit_text">Общепризнанной точки отсчета стенс-движения нет. Однако можно с уверенностью говорить, что направление это молодое, в постсоветское пространство стенс-культура пришла в середине нулевых годов XXI века, а само движение заимствовало черты других тюнинг-стилей, впитывало современные автоспортивные тенденции и черпало вдохновение в эскизах прототипов ведущих брендов.</p>
+              <p class="middle__main_unit_text">Соединив в себе стилистику широких и приземистых силуэтов рендеров новых моделей, идеологию минимального клиренса гоночных машин, эпатаж low-культур Нового Света и drift-культур Страны восходящего солнца, стенс прочно прижился и в США, и в Японии. А совсем недавно мода на подобный тюнинг захлестнула страны бывшего СССР.</p>
+            <a href="#main-2">
+              <img src="img/main-2.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_image">
+            </a>
+            <a href="#_" class="middle__main_unit_image_lightbox" id="main-2">
+              <img src="img/main-2.jpg">
+            </a>
+            <div class="middle__main_unit_imagebox">
+              <img src="img/main-3.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_imagebox_img">
+              <img src="img/main-4.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_imagebox_img">
+              <img src="img/main-5.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_imagebox_img">
+            </div>
+            <h2 class="middle__main_unit_title">Причины популярности</h2>
+              <p class="middle__main_unit_text">Как только автомобиль перестал быть роскошью, а сам факт владения машиной более не вызывал пиетета, все более важными становились уникальные черты. Сегодня, когда одинаковых автомобилей тысячи, выделяться из толпы, не потратив уйму денег, непросто, да и тюнинг, как правило, заточен под определенные категории машин. По-настоящему массовых движений, готовых объединить под своими знаменами и VW Golf, и Lexus GS, и старую «Самару», до появления стенса не было. Вот и первый фактор — непривередливость к объекту для тюнинга.</p>
+            <img src="img/main-6.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_image">
+            <div class="middle__main_unit_imagebox">
+              <img src="img/main-7.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_imagebox_img">
+              <img src="img/main-8.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_imagebox_img">
+              <img src="img/main-9.jpg" alt="Raceim Stanced Golf" class="middle__main_unit_imagebox_img">
+            </div>
+              <p class="middle__main_unit_text">Если стенс дает возможность на равных самовыражаться и владельцу Mercedes, и хозяину Lada, то налицо второй неоспоримый плюс — доступность тюнинга. Для того, чтобы стать частью тусовки, вам не нужно платить бешеные деньги в тюнинг-ателье, на начальном этапе модернизации хватит гаража с ямой. Еще один безусловный плюс — возможность постепенно входить во вкус и «доукомплектовывать» автомобиль. Хочется настроить клиренс с точностью до миллиметра? Есть вариант установить койловеры (сленговое название винтовой подвески). Достичь идеального фитмента, не принося в жертву практичность? Можно раскошелиться на «пневму». До неузнаваемости меняет внешний вид автомобиля и такой простой ход, как смена дисков с коррекцией развала или вылета. А ведь большинство экспериментов можно сделать своими руками — еще один плюс в копилку стенса.</p>
+            <h2 class="middle__main_unit_title">В чем смысл стенса? И есть ли он вообще?</h2>
+              <p class="middle__main_unit_text">Во все времена люди стремились отличаться от окружающих, и чем более массовым средством передвижения становился автомобиль, тем больше умов пытались придать ему неординарный облик. Идеология stance-тюнинга в том, чтобы автомобиль составлял с колесами единое целое. Не секрет, что в стадии прототипа любая машина выглядит крайне сбалансированно, в основном за счет малых зазоров между колесами и кузовом, низкого профиля шин, огромного размера дисков и малого клиренса. Но затем, учитывая реалии современного мира, в производстве автомобили приобретают привычные нам практичные черты. Для стенсеров же первичен дизайн, в жертву которому часто приносится функционал. Изменяя дорожный просвет, геометрию подвески и колеса, стенсеры непременно сталкиваются с проблемами: при строительстве стенс-проекта приходится мириться со сложностями легализации и эксплуатации, тратой времени, сил и денег.</p>
+        </div>
+      </section>
+      <aside class="middle__aside">
+        <h2 class="middle__aside_title">Отчеты с мероприятий</h2>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/04/03/status-seasonal-2020-photo-coverage/" title="Status Seasonal 2020" target="_blank">
+            <img src="./img/event-coverage/Status-Seasonal-2020.jpg" alt="Status Seasonal 2020" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Status Seasonal 2020</span>
+              <br>
+              <span class="middle__aside_image-date">April 3, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/03/04/nagoya-auto-trend-2020-photo-coverage/" title="Nagoya Auto Trend 2020" target="_blank">
+            <img src="./img/event-coverage/Nagoya-Auto-Trend-2020.jpg" alt="Nagoya Auto Trend 2020" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Nagoya Auto Trend 2020</span>
+              <br>
+              <span class="middle__aside_image-date">March 4, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/16/osaka-auto-messe-2020-photo-coverage-part-1/" title="OSAKA AUTO MESSE 2020 pt.1" target="_blank">
+            <img src="./img/event-coverage/Osaka-Auto-Messe-2020-1.jpg" alt="OSAKA AUTO MESSE 2020 pt.1" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Osaka Auto Messe 2020 pt.1</span>
+              <br>
+              <span class="middle__aside_image-date">February 16, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/18/osaka-auto-messe-2020-photo-coverage-part-2/" title="OSAKA AUTO MESSE 2020 pt.2" target="_blank">
+            <img src="./img/event-coverage/Osaka-Auto-Messe-2020-2.jpg" alt="OSAKA AUTO MESSE 2020 pt.2" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Osaka Auto Messe 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">February 16, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/01/14/tokyo-auto-salon-2020-photo-coverage-part-1/" title="Tokyo Auto Salon 2020 pt.1" target="_blank">
+            <img src="./img/event-coverage/Tokyo-auto-Salon-2020-1.jpg" alt="Tokyo Auto Salon 2020 pt.1" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Tokyo Auto Salon 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">January 14, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/2020/02/18/osaka-auto-messe-2020-photo-coverage-part-2/" title="Tokyo Auto Salon 2020 pt.2" target="_blank">
+            <img src="./img/event-coverage/Tokyo-auto-Salon-2020-2.jpg" alt="Tokyo Auto Salon 2020 pt.2" class="middle__aside_image">
+            <div class="middle__aside_image-text-container">
+              <span class="middle__aside_image-text">Tokyo Auto Salon 2020 pt.2</span>
+              <br>
+              <span class="middle__aside_image-date">January 14, 2020</span>
+            </div>
+          </a>
+        </div>
+        <div class="middle__aside_unit">
+          <a href="https://www.stancenation.com/topics/event-coverage/" class="middle__aside_unit_button" title="Stancenation: Event Coverage" target="_blank"><strong>Смотреть больше отчетов</strong></a>
+        </div>
+      </aside>
     </div>
-    <div>
-      <h1 align="center">Stance и основные понятия</h1>
-        <p><strong>Stance</strong> (в переводе с англ. "<em>посадка</em>") — все чаще применяется к автомобилям относительно клиренса (дорожного просвета) и заменяет слово Drop (в переводе с англ. "падение"), которым обозначается заниженный и уроненный на самое брюхо автомобиль (дропнутый). Основными элементами Stance движения являются посадка (клиренс) автомобиля и расположение колеса в арках (<strong>fitment</strong>): ширина диска, ширина и профиль резины, величина вылета диска, и т.д. Поклонники Stance культуры на своих Stance car'ах осознанно жертвуют быстрым и комфортным передвижением по дорогам, медленно переползая через лежачие полицейские, сталкиваются с проблемами в виде плохих дорог и прочих колдобин, отдавая дань стилю и культуре в целом.</p>
-        <p><b>— Low stance</b> — когда машина буквально лежит на днище, не редко можно увидеть на автомобилях, исполненных в JDM Style; — Gay stance — дополнительное увеличение дорожного просвета, делая из машины "джип".</p>
-        <p>Все это позволяет выделить автомобиль на дороге из серый массы и сделать его более привлекательным. А по сути дела с автомобилем сделано "совсем ничего": замена пружин или чуть более дорогой вариант — винтовые стойки, подбираются колеса с максимальным вылетом и приемлемой шириной, подбирается резина (обычно низкопрофильная) и натягивается на диски, теперь все это устанавливается на машину, подгоняется под арки и делается развал, чтобы эти самые диски умещались. В дополнение стиля может быть добавлен скромный (подчеркивающий достоинства) обвес. После всего этого, машина обретает тот самый stance стиль, который был задуман владельцем авто. Теперь можете быть уверены, что Ваш автомобиль стал уникальным и 100% не затеряется в толпе.</p>
-    </div>
-    <div>
-      <img
-      id="AllTypes"
-      align="center"
-      src="./img/types.jpg"
-      alt="All Types of Fitment"
-      height="650"
-      width="1050"
-      >
-    </div>
+    <footer class="footer">
+      <div class="footer-container">
+        <img src="img/logo.png" width="72" class="footer-container__image">
+        <p class="footer-container__text">Created with love and respect to the culture</p>
+        <p class="footer-container__text">
+          <a href="https://github.com/innapau" class="footer-container__text_link">by Denis Maslakovich</a>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
